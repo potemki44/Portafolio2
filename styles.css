@@ -7,6 +7,14 @@
         scroll-behavior: smooth;
     }
 
+    h3 {
+        color: rgb(57, 235, 167);
+        text-align: center;
+        font-size: 25px;
+        margin: 55px;
+        font-family: 'Rubik', sans-serif;
+    }
+
     .grandson1 {
         width: 400px;
 
@@ -267,6 +275,7 @@
 
 
     .acercademi {
+        padding: 10px;
         width: 350px;
         margin-left: 18px;
         background-color: rgb(8, 22, 63);
@@ -319,6 +328,7 @@
     }
 
     .servicios1 {
+        padding: 10px;
         border-radius: 15px;
         margin-left: 15px;
         width: 302px;
@@ -329,6 +339,7 @@
         margin-left: 25px;
 
     }
+
 
     .Habilidades {
 
@@ -352,18 +363,18 @@
     .iconitos_ingles {
 
         font-size: 20px;
-     
+
     }
 
     .iconitos_equipo {
-      
+
 
         font-size: 20px;
     }
 
 
     .iconitos_creatividad {
-      
+
 
         font-size: 20px;
 
@@ -383,48 +394,948 @@
 
 
 
-.hcontacto {
-    margin-top: 65px;
-    margin-left: 15px;
-    font-family: serif;
-    font-size: 25px;
-    color: rgb(113, 229, 148);
+    .hcontacto {
+        margin-top: 65px;
+        margin-left: 15px;
+        font-family: serif;
+        font-size: 25px;
+        color: rgb(113, 229, 148);
+    }
+
+    .contacto {
+        height: 180px;
+        display: flex;
+        margin-top: 10px;
+        gap: 20px;
+        border: 4px rgb(9, 26, 75) solid;
+        background-color: rgb(8, 22, 63);
+    }
+
+    .whatssap {
+        margin-top: 100px;
+        width: 47px;
+        margin-left: 90px;
+        background-color: rgb(226, 233, 240);
+        height: 45px;
+        border-radius: 15px;
+        border: rgb(100, 201, 214) solid;
+    }
+
+    .mail {
+        margin-top: 10px;
+        width: 47px;
+        margin-left: -70px;
+        background-color: rgb(226, 233, 240);
+        height: 45px;
+        border-radius: 15px;
+        border: rgb(100, 201, 214) solid;
+    }
+
+    .mail:hover {
+        border: rgb(113, 27, 211) solid;
+    }
+
+    .whatssap:hover {
+        border: rgb(113, 27, 211) solid;
+    }
 }
 
-.contacto {
-    height: 180px;
-    display: flex;
-    margin-top: 10px;
-    gap: 20px;
-    border: 4px rgb(9, 26, 75) solid;
-    background-color: rgb(8, 22, 63);
+
+@media only screen and (min-width: 429px)and (max-width: 899px) {
+    * {
+        font-family: 'Rubik', sans-serif;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    .grandson1 {
+        width: 100%;
+
+    }
+
+    body {
+        margin: 0;
+    }
+
+    html {
+        font-size: 16px;
+
+    }
+
+    .navbar i {
+        font-size: 38px;
+
+        color: aliceblue;
+
+
+    }
+
+    .navbar {
+        width: 100%;
+        background-color: rgb(10, 34, 105);
+        position: sticky;
+        top: 0;
+        height: 50px;
+
+
+
+    }
+
+    .navbar .container {
+        width: 100%;
+        position: relative;
+        left: -900px;
+        display: flex;
+        height: 90px;
+        top: 0;
+        align-items: center;
+        z-index: 3;
+        transition: .5s;
+
+    }
+
+
+    .checkBox {
+        display: none;
+
+
+    }
+
+
+    .checkBox:checked~.container {
+        left: 0;
+        opacity: 93%;
+    }
+
+
+
+    .nav-menu {
+        width: 100%;
+        position: absolute;
+        top: 2px;
+        width: 100%;
+        background-color: rgb(25, 43, 119);
+        display: flex;
+        flex-direction: column;
+        z-index: 4;
+
+
+    }
+
+    .nav-menu a {
+        width: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: aliceblue;
+        text-decoration: none;
+        padding: 6px;
+        text-align: center;
+        z-index: 6;
+
+
+
+    }
+
+
+
+    .nav-menu a:hover {
+        color: rgb(252, 243, 244);
+    }
+
+
+
+
+    .box2 {
+        z-index: 0;
+        margin-left: 0px;
+        width: 150px;
+        height: 150px;
+        padding: 30px;
+        z-index: -1;
+    }
+
+    .box {
+        display: relative;
+        bottom: 0px;
+        left: 0px;
+        padding: 0px 0px;
+        color: rgb(248, 248, 248);
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .box2 {
+        position: relative;
+        left: 90px;
+        top: 70px;
+        color: rgb(57, 235, 167);
+        font-family: Arial;
+        padding-top: 0%;
+
+    }
+
+
+
+    body {
+
+        background-color: rgba(1, 1, 68, 0.915);
+
+    }
+
+
+    .hero__container {
+
+        background-image: url('imagenes/portadapp.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        margin-right: 20px;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .hero {
+
+
+        height: 500px;
+        width: 100%;
+
+
+    }
+
+
+    .box {
+        padding: 15px;
+        margin-top: 15px;
+        margin-left: 50px;
+    }
+
+    .box>p {
+
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        color: rgb(248, 237, 237);
+        z-index: -1;
+    }
+
+
+
+    .box>span {
+        color: rgb(57, 235, 167)
+    }
+
+    .box2 {
+        display: flex;
+        top: 20px;
+
+        font-size: 30PX;
+        top: 100px;
+        margin-left: 22px;
+    }
+
+
+    .box2>span {
+
+
+        margin-right: 20px;
+
+        position: relative;
+        top: 50px;
+        right: 140px;
+        font-size: 25px;
+        color: aliceblue;
+    }
+
+    /*section 2-------------------------------------------------------------------
+    ----------------
+    -----------------------------*/
+    .about2 {
+        margin-top: 0;
+    }
+
+    .about2_div {
+        background: rgb(195, 223, 200);
+        width: 90%;
+        padding: 15px 0px 0px 70px;
+        position: relative;
+        height: 90px;
+        margin-left: 35px;
+        border-radius: 10px;
+
+        z-index: -1;
+
+    }
+
+
+
+
+    .about2_button {
+
+        margin-left: 20px;
+        margin-right: 10px;
+        border-radius: 5px;
+        height: 60px;
+    }
+
+    .about2_button2 {
+
+        margin-left: 50px;
+        margin-right: 10px;
+        border-radius: 5px;
+        height: 60px;
+
+    }
+
+    .about2_button3 {
+
+        margin-left: 40px;
+        border-radius: 5px;
+        height: 60px;
+    }
+
+    .about2_button:hover {
+        height: 45px;
+
+    }
+
+
+    .about2_button2:hover {
+        height: 45px;
+        width: px;
+    }
+
+    .about2_button3:hover {
+        height: 45px;
+        width: px;
+    }
+
+
+
+
+    h1 {
+        text-align: center;
+        color: rgb(57, 235, 167);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 28px;
+    }
+
+
+
+    .acercademi {
+        margin-left: 34px;
+        padding: 5px 15px;
+        width: 90%;
+        align-items: center;
+        background-color: rgb(8, 22, 63);
+        border-radius: 15px;
+
+
+    }
+
+    p {
+        text-align: center;
+        font-size: 22PX;
+        font-family: 'Rubik', sans-serif;
+        color: aliceblue;
+    }
+
+
+    h2 {
+        border: red 1px;
+        color: rgb(57, 235, 167);
+
+
+    }
+
+
+
+    .servicos_ricktitle {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+
+
+
+
+    }
+
+    h3 {
+        color: rgb(57, 235, 167);
+        text-align: center;
+        font-size: 25px;
+        margin: 55px;
+        font-family: 'Rubik', sans-serif;
+    }
+
+
+    .servicios1:hover {
+        margin-top: 5px;
+
+    }
+
+    .serviciosimg:hover {
+        background-color: rgb(55, 23, 58);
+    }
+
+    .serviciosimg {
+        background-color: rgb(8, 22, 63);
+        margin: auto auto;
+        height: 500px;
+        width: 50%;
+        border-radius: 15px;
+
+
+    }
+
+
+    .servicios_rick_text {
+        font-family: 'Rubik', sans-serif;
+        font-size: 22px;
+    }
+
+    .servicios1 {
+        border-radius: 15px;
+        margin-left: 20px;
+        width: 90%;
+        height: 50%;
+    }
+
+    h2.hab_title {
+        margin-left: 25px;
+
+    }
+
+    .Habilidades {
+
+        display: flex;
+        flex-direction: column;
+
+        object-position: center;
+
+        gap: 50px;
+        align-items: center;
+        /*  border: 1px rgb(41, 76, 216) solid;*/
+        height: 500px;
+        width: 100%;
+        color: aliceblue;
+    }
+
+    .Habilidades span {
+
+        color: rgb(238, 248, 241)
+    }
+
+    .iconitos_ingles {
+
+        font-size: 20px;
+
+    }
+
+    .iconitos_equipo {
+
+
+        font-size: 20px;
+    }
+
+
+    .iconitos_creatividad {
+
+
+        font-size: 20px;
+
+
+    }
+
+    .iconitos_detalle {
+
+
+        font-size: 20px;
+
+    }
+
+
+
+
+    .hcontacto {
+        margin-top: 65px;
+        margin-left: 15px;
+        font-family: serif;
+        font-size: 25px;
+        color: rgb(113, 229, 148);
+    }
+
+    .contacto {
+        justify-content: center;
+        height: 180px;
+        display: flex;
+        margin-top: 10px;
+        gap: 20px;
+        border: 4px rgb(9, 26, 75) solid;
+        background-color: rgb(8, 22, 63);
+    }
+
+    .whatssap {
+        margin-top: 100px;
+        width: 47px;
+        margin-left: 90px;
+        background-color: rgb(226, 233, 240);
+        height: 45px;
+        border-radius: 15px;
+        border: rgb(100, 201, 214) solid;
+    }
+
+    .mail {
+        margin-top: 10px;
+        width: 47px;
+        margin-left: -70px;
+        background-color: rgb(226, 233, 240);
+        height: 45px;
+        border-radius: 15px;
+        border: rgb(100, 201, 214) solid;
+    }
+
+    .mail:hover {
+        border: rgb(113, 27, 211) solid;
+    }
+
+    .whatssap:hover {
+        border: rgb(113, 27, 211) solid;
+    }
+
+
 }
 
-.whatssap {
-    margin-top: 100px;
-    width: 47px;
-    margin-left: 90px;
-    background-color: rgb(226, 233, 240);
-    height: 45px;
-    border-radius: 15px;
-    border: rgb(100, 201, 214) solid;
-}
+@media only screen and (min-width:900px) {
 
-.mail {
-    margin-top: 10px;
-    width: 47px;
-    margin-left: -70px;
-    background-color: rgb(226, 233, 240);
-    height: 45px;
-    border-radius: 15px;
-    border: rgb(100, 201, 214) solid;
-}
+    * {
+        font-family: 'Rubik', sans-serif;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
 
-.mail:hover{
-   border: rgb(113, 27, 211) solid;
-}
+    
+    .grandson1 {
+        width: 100%;
+    }
 
-.whatssap:hover{
-    border: rgb(113, 27, 211) solid;
- }
+
+    body {
+        margin: 0;
+    }
+
+
+    html {
+        font-size: 16px;
+    }
+
+
+    .navbar i {
+        margin-left: -100px;
+    }
+
+
+    .navbar .container {
+        width: 100%;
+        position: fixed;
+        left: 0px;
+        display: flex;
+        height: 90px;
+        top: 0;
+        z-index: 3;
+    }
+
+
+    .checkBox {
+        display: none;
+    }
+
+
+    .checkBox:checked~.container {
+        left: 0;
+        opacity: 93%;
+    }
+
+
+    .nav-menu {
+     
+
+
+        padding: 15px;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        background-color: rgb(25, 43, 119);
+        text-align: right;
+        height: 100px;
+        z-index: 4;
+    }
+
+
+    .nav-menu a {
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 50px;
+        width: 100%;
+        font-size: 29px;
+        font-family: 'Rubik', sans-serif;
+        color: aliceblue;
+        text-decoration: none;
+z-index: 6;
+    }
+
+
+    .nav-menu a:hover {
+        color: rgb(49, 126, 77);
+    }
+
+
+
+    body {
+        background-color: rgba(1, 1, 68, 0.915);
+    }
+
+
+    .hero__container {
+        background-image: url('imagenes/portadapp.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 500px ;
+       
+        margin-left: 0px;
+        height: 100%;
+        z-index: 1;
+    }
+
+
+    .hero {
+        margin-left: 35px;
+        margin-top: 65px;
+        border: rgb(224, 233, 224) 2px solid;
+        height: 799px;
+        width: 100%;
+    }
+
+    .box {
+        width: 50%;
+        height: 100%;
+   
+        position: relative;
+        bottom: 0px;
+        margin-top: 90px;
+        padding: 0px 0px;
+        color: rgb(248, 248, 248);
+        font-size: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+
+    .box>span {
+        color: rgb(57, 235, 167)
+    }
+
+    .box>p {
+        position: absolute;
+        top: 200;
+        left: 60px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 60px;
+        color: rgb(248, 237, 237);
+        z-index: -1;
+    }
+
+
+
+  
+
+
+    .box2 {
+        position: absolute;
+        top: 100px;
+        width: 50%;
+        height: 260%;
+        font-size: 80PX;
+        color: rgb(57, 235, 167);
+        display: flex;
+     
+        margin-left: 1130px;
+        background-color:  rgb(8, 22, 63);
+      z-index: -1
+        ;
+    }
+
+
+    .box2>span {
+
+        position: relative;
+
+
+
+        top: 100px;
+        right: 140px;
+        font-size: 50px;
+        color: aliceblue;
+    }
+
+    /*section 2-------------------------------------------------------------------
+    ----------------
+    -----------------------------*/
+    .about2 {
+        margin-top: 0;
+    }
+
+    .about2_div {
+        background: rgb(195, 223, 200);
+        width: 90%;
+        padding: 15px 0px 0px 70px;
+        position: relative;
+        top: 88px;
+  
+        height: 90px;
+        margin-left: 35px;
+        border-radius: 10px;
+
+        z-index: -1;
+
+    }
+
+
+
+
+    .about2_button {
+
+        margin-left: 20px;
+        margin-right: 10px;
+        border-radius: 5px;
+        height: 60px;
+    }
+
+    .about2_button2 {
+
+        margin-left: 50px;
+        margin-right: 10px;
+        border-radius: 5px;
+        height: 60px;
+
+    }
+
+    .about2_button3 {
+
+        margin-left: 40px;
+        border-radius: 5px;
+        height: 60px;
+    }
+
+    .about2_button:hover {
+        height: 45px;
+
+    }
+
+
+    .about2_button2:hover {
+        height: 45px;
+        width: px;
+    }
+
+    .about2_button3:hover {
+        height: 45px;
+        width: px;
+    }
+
+
+
+
+    h1 {
+        text-align: center;
+        color: rgb(57, 235, 167);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 28px;
+    }
+
+
+
+    .acercademi {
+        margin-left: 34px;
+        padding: 5px 15px;
+        width: 90%;
+        align-items: center;
+        background-color: rgb(8, 22, 63);
+        border-radius: 15px;
+
+
+    }
+
+    p {
+        text-align: center;
+        font-size: 22PX;
+        font-family: 'Rubik', sans-serif;
+        color: aliceblue;
+    }
+
+
+    h2 {
+        border: red 1px;
+        color: rgb(57, 235, 167);
+
+
+    }
+
+
+
+    .servicos_ricktitle {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+
+
+
+
+    }
+
+    h3 {
+        color: rgb(57, 235, 167);
+        text-align: center;
+        font-size: 25px;
+        margin: 55px;
+        font-family: 'Rubik', sans-serif;
+    }
+
+
+    .servicios1:hover {
+        margin-top: 5px;
+
+    }
+
+    .serviciosimg:hover {
+        background-color: rgb(55, 23, 58);
+    }
+
+    .serviciosimg {
+        background-color: rgb(8, 22, 63);
+        margin: auto auto;
+        height: 500px;
+        width: 50%;
+        border-radius: 15px;
+
+
+    }
+
+
+    .servicios_rick_text {
+        font-family: 'Rubik', sans-serif;
+        font-size: 22px;
+    }
+
+    .servicios1 {
+        border-radius: 15px;
+        margin-left: 20px;
+        width: 90%;
+        height: 50%;
+    }
+
+    h2.hab_title {
+        margin-left: 25px;
+
+    }
+
+    .Habilidades {
+
+        display: flex;
+        flex-direction: column;
+
+        object-position: center;
+
+        gap: 50px;
+        align-items: center;
+        /*  border: 1px rgb(41, 76, 216) solid;*/
+        height: 500px;
+        width: 100%;
+        color: aliceblue;
+    }
+
+    .Habilidades span {
+
+        color: rgb(238, 248, 241)
+    }
+
+    .iconitos_ingles {
+
+        font-size: 20px;
+
+    }
+
+    .iconitos_equipo {
+
+
+        font-size: 20px;
+    }
+
+
+    .iconitos_creatividad {
+
+
+        font-size: 20px;
+
+
+    }
+
+    .iconitos_detalle {
+
+
+        font-size: 20px;
+
+    }
+
+
+
+
+    .hcontacto {
+        margin-top: 65px;
+        margin-left: 15px;
+        font-family: serif;
+        font-size: 25px;
+        color: rgb(113, 229, 148);
+    }
+
+    .contacto {
+        justify-content: center;
+        height: 180px;
+        display: flex;
+        margin-top: 10px;
+        gap: 20px;
+        border: 4px rgb(9, 26, 75) solid;
+        background-color: rgb(8, 22, 63);
+    }
+
+    .whatssap {
+        margin-top: 100px;
+        width: 47px;
+        margin-left: 90px;
+        background-color: rgb(226, 233, 240);
+        height: 45px;
+        border-radius: 15px;
+        border: rgb(100, 201, 214) solid;
+    }
+
+    .mail {
+        margin-top: 10px;
+        width: 47px;
+        margin-left: -70px;
+        background-color: rgb(226, 233, 240);
+        height: 45px;
+        border-radius: 15px;
+        border: rgb(100, 201, 214) solid;
+    }
+
+    .mail:hover {
+        border: rgb(113, 27, 211) solid;
+    }
+
+    .whatssap:hover {
+        border: rgb(113, 27, 211) solid;
+    }
+
+
 }
